@@ -97,6 +97,7 @@ public class Main {
         if(num < 0){
             str = str.substring(1);
             result += "-";
+            //
         }
         result += new StringBuilder(str).reverse().toString();
         return Integer.parseInt(result);
